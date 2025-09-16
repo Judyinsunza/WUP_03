@@ -1,7 +1,7 @@
 ---
 title: "Alcohol vs Seat choice"
-author: "Your Name"
-date: "Fall 2020"
+author: "JudyInsunza"
+date: "09/16/25"
 output: html_document
 ---
 
