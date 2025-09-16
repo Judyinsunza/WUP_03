@@ -52,6 +52,13 @@ summary.aov(model1)
 
 When looking at the P-value which was about 0.000116, I noticed that it is really small and telling me that there is a big statistical difference between the values. 
 
+```{r}
+plot(TukeyHSD(model1))
+```
+
+Looking at the 95% confidence level. I saw the confidence intervals of the Front-Back, Middle-Back and Middle-Front seats, with 0 indicating if the lines are significantly different, since 0 doesn't go through their confidence intervals. However, for the Middle-Front seats,0 does go through the confidence interval, and so indicating that there is no significant different between them.  
+  
+
 ## Conclusions
 
 
