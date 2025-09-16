@@ -35,7 +35,12 @@ basicCN + geom_boxplot()
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
 ```
 
+
 ## Numerical Summarys 
+```{r}
+favstats(momheight~Sex,data=ucdavis1)
+```
+I noticed that the number of people sitting in the middle is the height (89) between the number of people sitting in the front (40)and the back (36). However, the standard deviation of the people sitting in the back is the highest (12580471) compared to the people sitting the front (3806013) and the middle
 
 ## Inferential Tests
 
